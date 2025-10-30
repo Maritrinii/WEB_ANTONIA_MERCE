@@ -12,26 +12,31 @@ body {
 /* HEADER */
 body > header > h1 {
     height: 30%;
-    font-size: 9.5rem;
+    font-size: 15rem;
     width: 100%;
     text-align: center;
+    font-family: "tt-modernoir", sans-serif;
+    font-weight: 500;
+    font-style: normal; 
 }
 
 body > header > h2 {
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
     letter-spacing: 0rem;
     padding-bottom: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     color: transparent;
-    -webkit-text-stroke: 2px black;
+    -webkit-text-stroke: 1.5px black;
+
 }
 
 .AMprincipal {
     height: 90vh;
     width: auto;
     display: block;
-    background-color: antiquewhite;
     padding-bottom: 2rem;
 }
 
@@ -42,7 +47,6 @@ body > header > h2 {
     margin: auto;
     padding-bottom: 2rem;
     justify-content: center;
-    background-color: beige;
 }
 
 /* SECTION ENTRADAS */
